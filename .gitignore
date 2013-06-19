@@ -1,6 +1,6 @@
-*.class
+# Ignore hidden files/folders
+.*
+.*/*
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Ignore maven target
+target/
